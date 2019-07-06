@@ -11,7 +11,7 @@ public class Main {
         TestNG testng = new TestNG();
 
         List<String> list = Lists.newArrayList();
-        list.add("./src/main/resources/suites/testng.xml");
+        list.add("./testng.xml");
         testng.setTestSuites(list);
 
         testng.run();
